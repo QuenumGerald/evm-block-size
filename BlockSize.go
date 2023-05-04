@@ -5,16 +5,15 @@ import (
 	"context"
 	"fmt"
 	"log"
-
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
-		"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum/rpc"
 )
 
 func main() {
-	rpcClient, err := rpc.DialWebsocket(context.Background(), "wss://dark-warmhearted-valley.bsc.discover.quiknode.pro/b1a75a5b2560dbff1e511f6664ff2b237e7d691d/", "")
+	rpcClient, err := rpc.DialWebsocket(context.Background(), "wss:// ", "")
 	if err != nil {
-		log.Fatal("Error connecting to BSC WebSocket: ", err)
+		log.Fatal("Error connecting to WebSocket: ", err)
 	}
 	defer rpcClient.Close()
 
