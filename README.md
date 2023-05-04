@@ -1,6 +1,6 @@
 # BSC Block Size Monitor
 
-This program retrieves the block size in bytes on Binance Smart Chain (BSC) using a BSC node WebSocket URL. It subscribes to new block headers and fetches the full block for each new header. Then, it encodes the block and calculates the block size in bytes.
+This program retrieves the block size in bytes on EVM using node WebSocket URL. It subscribes to new block headers and fetches the full block for each new header. Then, it encodes the block and calculates the block size in bytes.
 
 ## Dependencies
 
