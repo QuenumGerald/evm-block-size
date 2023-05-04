@@ -37,6 +37,5 @@ To run this program, follow these steps:
 
 This program has a few limitations and can be improved in several ways:
 
-- It connects to a single BSC node, which may cause performance or availability issues. You may consider adding error handling and reconnection attempts to improve the program's robustness.
-- It only supports Binance Smart Chain. To extend support to other Ethereum-based blockchains, you will need to modify the WebSocket URL and, if necessary, adjust function calls to account for differences between blockchains.
-- The program only displays the block number and block size in bytes. You can add more information, such as block time, transactions included in the block, gas fees, etc., to get a more comprehensive view of each block.
+- It connects to a single BSC node, which may cause performance or availability issues. We may consider adding error handling and reconnection attempts to improve the program's robustness.
+- The program only displays the block number and block size in bytes. We can add more information, such as block time, transactions included in the block, gas fees, etc., to get a more comprehensive view of each block.
